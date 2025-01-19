@@ -1,0 +1,52 @@
+.header-class {
+    width: 100%;
+    background-color: #ffd2bf;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.logo-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.header-container-child {
+    padding: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.header-nav {
+    margin-right: 50px;
+}
+
+.header-nav button {
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.header-nav input {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header {
+    border: 3px solid black;
+    border-radius: 10px;
+}

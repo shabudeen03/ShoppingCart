@@ -1,0 +1,81 @@
+.home-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(465px, 1fr));
+    padding: 20px;
+}
+
+.home-card {
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    height: 200px;
+}   
+
+a {
+    text-decoration: none;
+    color: inherit; /* Optional: Maintain the text color */
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: inherit; /* Optional: Maintain consistency for visited links */
+}
+  
+a:hover {
+  text-decoration: none;
+}
+  
+a:focus {
+  text-decoration: none;
+}
+  
+a:active {
+  text-decoration: none;
+}
+
+.home-card:hover {
+    background-color: yellow;
+}
+
+.home-card-img {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.home-card-details {
+    width: 60%;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.home-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-card-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-card-name:hover, .home-card-name:focus, .home-card-name:active, .home-card-name:visited {
+    text-decoration: none;
+}
+
+.home-card-stockprice, .home-card-rating {
+    font-size: 18px;
+    padding: 2px;
+}
+
+.home-card-buttons button {
+    padding: 3px;
+    font-size: 15px;
+}

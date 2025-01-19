@@ -1,0 +1,171 @@
+.view-img {
+    margin-left: 10%;
+    margin-right: 3%;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 10px solid black;
+}
+
+.view-img, .view-item {
+    display: inline-block;
+}
+
+.view-img img {
+    padding-top: 30px;
+    width: 450px;
+    height: 450px;
+}
+
+.view-item {
+    vertical-align: top;
+}
+
+.view-item .title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.view-item, .view-item button, .view-item input {
+    font-size: 25px;
+}
+
+.view-item input {
+    margin-right: 10px;
+}
+
+.view-item button {
+    margin-top: 10px;
+    margin-left: 85%;
+    background-color: #ffd576;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.view-item button:hover {
+    cursor: pointer;
+    background-color: lightyellow;
+}
+
+.view-item .title, .view-item .stock, .view-item .avgRating {
+    padding: 5px;
+}
+
+.view-item .description {
+    background-color: #f1f1f1;
+    padding: 15px;
+    width: 500px;
+    height: 290px;
+    border-radius: 20px;
+}
+
+.view-main {
+    background-color: honeydew;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    width: 70%;
+    padding: 1%;
+    border: 3px solid rgb(175, 251, 175);
+    border-radius: 20px;
+}
+
+.view-item .description .title {
+    font-weight: bold;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.view-item .description li {
+    padding: 5px;
+}
+
+.view-ratings {
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.view-item {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    border-right: 2px dotted black;
+    border-left: 2px dotted black;
+}
+
+.view-ratings .title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.view-ratings div ul li {
+    border: 2px dotted black;
+    padding: 10px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.view-ratings .title {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.view-ratings .desc {
+    padding-bottom: 5px;
+}
+
+.view-ratings .user {
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.view-ratings .rat {
+    font-weight: bolder;
+}
+
+.view-other-items {
+    border: 3px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.view-other-items .other-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.view-other-items .other-item {
+    margin: 10px 10px;
+    padding: 25px;
+    border: 3px dotted orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-other-items .other-item .desc {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.view-other-items .other-item .name {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
